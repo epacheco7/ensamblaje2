@@ -3,15 +3,21 @@ output_dir: "../docs"
 navbar:
   title: "ensamblaje2"
   left:
-    - text: "Home"
+    - text: "Inicio"
       href: index.html
-    - text: "About"
+      icon: fa-home
+    - text: "Acerca de ..."
       href: about.html
-    - text: "License"
+      icon: fa-info
+    - text: "MyM"
+      href: about.html
+      icon: fa-info
+    - text: "Licencia"
       href: license.html
+      icon: fa-copyright
   right:
     - icon: fa-github
-      href: https://github.com/jdblischak/workflowr
+      href: https://github.com/epacheco7/ensamblaje2
 output:
   workflowr::wflow_html:
     toc: true
