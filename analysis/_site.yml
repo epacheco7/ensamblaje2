@@ -12,6 +12,9 @@ navbar:
     - text: "MyM"
       href: about.html
       icon: fa-info
+    - text: "Resultados"
+      href: about.html
+      icon: fa-info
     - text: "Licencia"
       href: license.html
       icon: fa-copyright
